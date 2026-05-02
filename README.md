@@ -54,23 +54,6 @@ Deletion: Uses .filter() to return a new array excluding the deleted task.
 
 Derived State: filteredTasks is calculated during every render based on the current filters state, ensuring the UI is always in sync with user selections.
 
- Project Structure
-
-Plaintext
-src/
-├── components/
-│   ├── TaskList/
-│   │   └── TaskList.tsx    # Loops through tasks and renders items
-│   ├── TaskItem/
-│   │   └── TaskItem.tsx    # Individual task card logic & UI
-│   └── TaskFilter/
-│       └── TaskFilter.tsx  # Filtering UI components
-├── types/
-│   └── index.ts            # TypeScript interfaces (Task, TaskStatus, etc.)
-└── App.tsx                 # Main container & State Management
-
-
-
 Component Overview
 
 TaskItem
